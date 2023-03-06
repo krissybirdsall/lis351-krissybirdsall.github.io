@@ -2,12 +2,10 @@ section {
 	width: 350px;
 	float: left;
 	padding: 10px;
-	font-family: verdana;
 }
 h1 {
 	background-color: #351b04;
 	color: white;
-	font-family: verdana;
 	text-align: center;
 	padding: 5px;
 }
@@ -36,7 +34,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #4e341d;
 }
 
 h2 {
@@ -53,4 +51,31 @@ h3 {
 p {
 	font-family: verdana;
 	padding: 15px;
+}
+.footer {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 90px;
+  background-color:#223b05;
+  text-align: center;
+}
+.footer-text-left {
+  font-size:25px;
+  padding-left:40px;
+  float:center;
+  word-spacing:20px;
+  color: white;
+  font-family: serif;
+ }
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  color: #4e341d;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
