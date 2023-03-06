@@ -12,16 +12,33 @@ h1 {
 	padding: 5px;
 }
 ul {
-	background-color: #white;
-	color: white;
-	font-family: verdana;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #351b04;
 }
+
 li {
-	float: right;
-	padding: 15px;
-	width: 100px;
-	text-align: center;
+  float: left;
 }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #384e1d;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
 h2 {
 	text-align: left;
 	height: 50px;
