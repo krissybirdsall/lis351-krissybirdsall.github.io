@@ -1,0 +1,39 @@
+section {
+	width: 350px;
+	float: left;
+	padding: 10px;
+	font-family: verdana;
+}
+h1 {
+	background-color: #351b04;
+	color: white;
+	font-family: verdana;
+	text-align: center;
+	padding: 5px;
+}
+ul {
+	background-color: #white;
+	color: white;
+	font-family: verdana;
+}
+li {
+	float: right;
+	padding: 15px;
+	width: 100px;
+	text-align: center;
+}
+h2 {
+	text-align: left;
+	height: 50px;
+	width: 150px;
+	padding: 30px;
+	font-family: verdana;
+}
+h3 {
+	text-align: center;
+	font-family: verdana;
+}
+p {
+	font-family: verdana;
+	padding: 15px;
+}
